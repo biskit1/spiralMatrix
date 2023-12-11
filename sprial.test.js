@@ -25,7 +25,7 @@ describe('createSpiral', () => {
     });
 
     it('should return empty array when N is a negative number', () => {
-        const result = createSpiral(0);
+        const result = createSpiral(-1);
         expect(result).toEqual([]);
     });
 
